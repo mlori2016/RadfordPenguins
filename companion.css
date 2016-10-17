@@ -1,0 +1,73 @@
+
+h1	{
+	
+}
+body {
+	background-image:linear-gradient(yellow, blue);
+	
+}
+#wrapper1 {
+	margin-top:0px;
+	width:80%;
+	position:center;
+	height: 100% ;
+	padding-left:0px;
+	padding-top: 0px;
+	padding-right:0px;
+	padding-bottom:0px
+}
+#banner {
+	margin-top:0px;
+	float:top;
+	width:100%;
+	height:80px;
+	font-size: 20pt;
+	background-image: linear-gradient(yellow, orange );
+	text-align:center;
+	text-shadow:3pt;
+	float:center;
+}
+#navbar {
+	background-image: linear-gradient(red, purple );
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size:15pt;
+}
+a:link {
+	padding:6px;
+	text-decoration:none;
+	color: white;
+	
+}
+a:hover {
+	color: lightgreen;
+	
+	
+}
+a:visited {
+	color:yellow;
+	
+}
+#content {
+	padding: 30px;
+	margin-left:30pt;
+	margin-right:30pt;
+	height:800px;
+	text-align:left;
+	background-color:white;
+}
+#info {
+	padding: 20px;
+}
+#text {
+	width:400px;
+}
+#awards {
+	width:300px;
+	height:400px;
+	text-align:center;
+	float:right;
+	margin-right:0px;
+	border:1pt black groove;
+}

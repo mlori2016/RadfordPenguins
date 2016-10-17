@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<!-- Author(s): Derric Pullen 
+
+
+<!-- Author(s): Derric Pullen  V2 update by: Lori Miller
 Team Penguins Login Page
 -->
 
-<html>
 
-
-	<head>
-		<title>Login Page</title>
-	</head>
-
-	<body>
 
 		<h1>Welcome! Please login!</h1>
 
-		<form action="">
+		<form action="login_handler.php" method='post'>
   			<label>Username: <input type="text" name="username" required></label><br />
   			<br />
   			<label>Password: <input type="password" name="password" required></label><br />
   			<br />
-  			<input type="submit" value="Log In">
+  			<input type="submit" value="submit">
 		</form>
-
-	</body>
-
-</html>
